@@ -1,8 +1,10 @@
 project:
   type: website
+  resources:
+  - "pdf/*.pdf"
   
 website:
-  title: "VM303-SP24"
+  title: "    "
   site-url: https://mroberts1.github.io/digital-culture-sp24/
   twitter-card:
     creator: "@mroberts_vma"
@@ -13,19 +15,6 @@ website:
   navbar:
     background: "#62259d"
     search: true
-    left:
-      - text: Home
-        file: index.qmd
-      - text: Syllabus
-        file: syllabus.qmd
-      - text: Pages
-        menu: 
-          - text: Generating SVGs
-            file: mecha.qmd
-          - text: IRC Quickstart
-            file: resources/irc-quickstart.qmd
-          - text: Mastodon Quickstart
-            file: resources/mastodon-quickstart.qmd
     right:
       - icon: envelope
         aria-label: envelope
@@ -42,24 +31,32 @@ website:
       - icon: twitter
         aria-label: twitter
         href: https://twitter.com/mroberts_VMA
-format: 
+format:
   html:
-    toc: false
-    toc-depth: 3  
+    toc: true
+    toc-depth: 3
     toc-location: right
-    toc-title: '   '
-    theme: 
+    toc-title: '    '
+    theme:
       light: ember.scss
-      dark: slate
+      dark: [ember.scss, slate]
     css: custom.scss
-    fontsize: 1.1em
-    linestretch: 1.5
+    self-contained: true
+    grid:
+        sidebar-width: 200px
+        body-width: 550px
+        margin-width: 200px
+        gutter-width: 2em
+    linestretch: 1.2
+    fontsize: 0.8em
     smooth-scroll: true
     linkcolor: "#62259d"
-    page-layout: article
-    title-block-banner: true
+    link-external-newwindow: true
+main-font: "Helvetica-Neue"
 fig-responsive: true
 image-alt: " "
 execute:
-  echo: false
-editor: source
+  freeze: auto
+reference-location: margin
+citation-location: margin
+editor: visual
