@@ -1,5 +1,5 @@
 ---
-title: '  '
+title: '   '
 ---
 
 ```{r}
@@ -11,10 +11,9 @@ library(palmerpenguins)
 ```
 
 # VM402-05 Cinematic Media
-## Reinventing Cinema in the Digital Age
 
-::: {layout="[[50, 50]]"}
-![](gif/scuba.gif)
+::: {.column-margin}
+![](img/CollegeLockupStacked.jpg)
 
 [Department of Visual & Media Arts](https://emerson.edu/academics/academic-departments/visual-media-arts)\
 [Emerson College](https://emerson.edu/)\
@@ -23,6 +22,14 @@ Tues/Thur 5 September-18 December 2023 4:00-5:45 p.m.\
 Little Building 241\
 [Dr. Martin Roberts](http://mroberts.emerson.build/)\
 :::
+
+## Reinventing Cinema in the Digital Age
+
+<div>
+<video autoplay loop muted playsinline controls="false" width="100%">
+<source src="video/scuba.mp4" type="video/mp4">
+</video>
+</div>
 
 ## Overview
 
@@ -61,7 +68,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*The Definition of Film*](https://www.richardmisek.com/the-definition-of-film) (Richard Misek, 2015)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://vimeo.com/128097765 >}}
 
 <small>*The Definition of Film*</small>
@@ -73,7 +80,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*The Rise of Film TikTok*](https://youtu.be/iqajurNSp1Q) (Queline Meadows, 2020)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://youtu.be/iqajurNSp1Q >}}
 
 <small>*The Rise of Film TikTok*</small>
@@ -85,7 +92,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*Criticism in the Age of TikTok*](https://youtu.be/uy8fgjghCQI) (Charlie Shackleton, 2019)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://youtu.be/uy8fgjghCQI >}}
 
 <small>*Criticism in the Age of TikTok*</small>
@@ -101,7 +108,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*The Bucket*](https://youtu.be/6cGxr2biI-0) (Jia Zhangke, 2019)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://youtu.be/6cGxr2biI-0 >}}
 
 <small>*The Bucket*</small>
@@ -109,7 +116,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*Detectives*](https://youtu.be/9oU_myNlk1A) (Apple, 2022)\
 
-::: {.column-margin}
+::: column-margin
 {{< video https://youtu.be/9oU_myNlk1A >}}
 
 <small>*Detectives*</small>
@@ -117,7 +124,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*Whodunnit*](https://youtu.be/289zm-hlMWk) (Apple, 2022)\
 
-::: {.column-margin}
+::: column-margin
 {{< video https://youtu.be/289zm-hlMWk >}}
 
 <small>*Whodunnit*</small>
@@ -125,7 +132,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*Chase*](https://vimeo.com/757947178) (Apple, 2022)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://vimeo.com/757947178 >}}
 
 <small>*Chase*</small>
@@ -133,7 +140,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*In Praise of Blur*](https://www.richardmisek.com/in-praise-of-blur) (Richard Misek, 2017)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://vimeo.com/220428480 >}}
 
 <small>*In Praise of Blur*</small>
@@ -145,7 +152,7 @@ Note on formats: A number of texts listed in the bibliography are available as e
 
 [*Stu Maschwitz on 24p, from a 2010 MacVideo Interview*](https://youtu.be/iCCmAjsNq_8)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://youtu.be/iCCmAjsNq_8 >}}
 
 <small>Stu Maschwitz on 24 fps</small>
@@ -167,7 +174,7 @@ Kogonada, [archive](https://kogonada.com/archive) (watch all)
 
 [*The Black Screen*](https://www.richardmisek.com/the-black-screen) (Richard Misek, 2017)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://vimeo.com/220625895 >}}
 
 <small>*The Black Screen*</small>
@@ -340,7 +347,7 @@ YouTube AI movies (from playlist) [Runway](https://runwayml.com/) Gen-2  [Juli
 **ChatGPT**\
 [*Sunspring*](https://youtu.be/LY7x2Ihqjmc) (Thomas Middleton, 2016)\
 
-::: {.column-margin}
+::: column-margin
 {{< video https://youtu.be/LY7x2Ihqjmc >}}
 
 <small>*Sunspring*</small>
@@ -348,7 +355,7 @@ YouTube AI movies (from playlist) [Runway](https://runwayml.com/) Gen-2  [Juli
 
 [*It’s No Game*](https://youtu.be/5qPgG98_CQ8) Thomas Middleton, 2017)
 
-::: {.column-margin}
+::: column-margin
 {{< video https://youtu.be/5qPgG98_CQ8 >}}
 
 <small>*It's No Game*</small>

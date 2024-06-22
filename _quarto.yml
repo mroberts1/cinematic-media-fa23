@@ -10,8 +10,6 @@ website:
     creator: "@mroberts_vma"
     card-style: summary_large_image
   favicon: "/img/cropped-cropped-flourish-1-270x270.gif"
-  margin-header: |
-    ![](/img/CollegeLockupStacked.jpg)
   navbar:
     background: "#62259d"
     search: true
@@ -33,10 +31,10 @@ website:
         href: https://twitter.com/mroberts_VMA
 format:
   html:
-    toc: true
+    toc: false
     toc-depth: 3
     toc-location: right
-    toc-title: '    '
+    toc-title: '   '
     theme:
       light: ember.scss
       dark: [ember.scss, slate]
@@ -45,14 +43,13 @@ format:
     grid:
         sidebar-width: 200px
         body-width: 550px
-        margin-width: 200px
+        margin-width: 300px
         gutter-width: 2em
     linestretch: 1.2
     fontsize: 0.8em
     smooth-scroll: true
     linkcolor: "#62259d"
     link-external-newwindow: true
-main-font: "Helvetica-Neue"
 fig-responsive: true
 image-alt: " "
 execute:
